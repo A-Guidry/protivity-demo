@@ -13,14 +13,14 @@ export class ChatFakeDb
             'name'  : 'Arnold',
             'avatar': 'assets/images/avatars/Arnold.jpg',
             'status': 'do-not-disturb',
-            'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+            'mood'  : 'Ready for the day'
         },
         {
             'id'    : '5725a68009e20d0a9e9acf2a',
             'name'  : 'Barrera',
             'avatar': 'assets/images/avatars/Barrera.jpg',
             'status': 'do-not-disturb',
-            'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            'mood'  : 'You know...',
             'unread': null
         },
         {
@@ -28,8 +28,8 @@ export class ChatFakeDb
             'name'  : 'Blair',
             'avatar': 'assets/images/avatars/Blair.jpg',
             'status': 'offline',
-            'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            'unread': 3
+            'mood'  : 'Vacation bound!',
+
         },
         {
             'id'    : '5725a68007920cf75051da64',
@@ -187,73 +187,67 @@ export class ChatFakeDb
             'dialog': [
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
+                    'message': 'Can you come to room 1B? We have the new marketing designs for our upcoming campaign',
                     'time'   : '2017-03-22T08:54:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'I’m having breakfast right now, can’t you wait for 10 minutes?',
+                    'message': 'I’m finishing up a conference call, can I come by in 10 minutes?',
                     'time'   : '2017-03-22T08:55:28.299Z'
                 },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:00:28.299Z'
+                    'message': 'Sure, we will get them laid out.',
+                    'time'   : '2017-03-22T09:08:58.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:02:28.299Z'
+                    'message': 'Great! Can I grab you a coffee?',
+                    'time'   : '2017-03-22T09:09:01.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:05:28.299Z'
+                    'message': 'No thank you, I am no my third cup, :{',
+                    'time'   : '2017-03-22T09:09:02.299Z'
                 },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:15:28.299Z'
-                },
+        
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:20:28.299Z'
+                    'message': 'HAHAH, I will just grab some after.',
+                    'time'   : '2017-03-22T09:03:28.299Z'
                 },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:22:28.299Z'
-                },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
+                    'message': 'Thank you for feedback, I will get the udpates to you by EOD',
                     'time'   : '2017-03-22T09:25:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
+                    'message': 'Great, please add Blair to the task as well.',
                     'time'   : '2017-03-22T09:27:28.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
+                    'message': 'He has been assigned the task',
                     'time'   : '2017-03-22T09:33:28.299Z'
                 },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:35:28.299Z'
+                    'message': 'How about the back-end project update? When can that be shared with ACME?',
+                    'time'   : '2017-03-22T13:35:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:45:28.299Z'
+                    'message': 'Lets share it tomorrow morning before our conference call.',
+                    'time'   : '2017-03-22T13:45:28.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T10:00:28.299Z'
+                    'message': 'Awesome!',
+                    'time'   : '2017-03-22T13:48:28.299Z'
                 }
             ]
         },
@@ -261,19 +255,19 @@ export class ChatFakeDb
             'id'    : '2725a680b8d240c011dd2243',
             'dialog': [
                 {
-                    'who'    : '5725a680b8d240c011dd224b',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
-                    'time'   : '2017-04-22T01:00:00.299Z'
+                    'who'    : '5725a680606588342058356d',
+                    'message': 'Can we have a quick chat about the new UI?',
+                    'time'   : '2017-04-22T15:00:00.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'I’m having breakfast right now, can’t you wait for 10 minutes?',
-                    'time'   : '2017-04-22T01:05:00.299Z'
+                    'message': 'Sure, how about at 4?',
+                    'time'   : '2017-04-22T15:05:00.299Z'
                 },
                 {
-                    'who'    : '5725a680b8d240c011dd224b',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-04-22T01:10:00.299Z'
+                    'who'    : '5725a680606588342058356d',
+                    'message': 'Sounds good, I will book 1A. ',
+                    'time'   : '2017-04-22T15:06:00.299Z'
                 }
             ]
         },
@@ -281,8 +275,8 @@ export class ChatFakeDb
             'id'    : '3725a6809413bf8a0a5272b4',
             'dialog': [
                 {
-                    'who'    : '5725a6809413bf8a0a5272b1',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
+                    'who'    : '5725a68009e20d0a9e9acf2a',
+                    'message': 'How was the ACME meeting?',
                     'time'   : '2017-04-22T02:10:00.299Z'
                 }
             ]
@@ -301,8 +295,8 @@ export class ChatFakeDb
                     'id'             : '1725a680b3249760ea21de52',
                     'contactId'      : '5725a680b3249760ea21de52',
                     'name'           : 'Alice Freeman',
-                    'unread'         : 4,
-                    'lastMessage'    : 'You are the worst!',
+                    'unread'         : 1,
+                    'lastMessage'    : 'Awesome!',
                     'lastMessageTime': '2017-06-12T02:10:18.931Z'
                 },
                 {
@@ -310,15 +304,15 @@ export class ChatFakeDb
                     'contactId'      : '5725a680b8d240c011dd224b',
                     'name'           : 'Josefina',
                     'unread'         : null,
-                    'lastMessage'    : 'We are losing money! Quick!',
+                    'lastMessage'    : 'Sounds good, I will book 1A',
                     'lastMessageTime': '2017-02-18T10:30:18.931Z'
                 },
                 {
                     'id'             : '3725a6809413bf8a0a5272b4',
                     'contactId'      : '5725a6809413bf8a0a5272b1',
                     'name'           : 'Velazquez',
-                    'unread'         : 2,
-                    'lastMessage'    : 'Quickly come to the meeting room 1B, we have a big server issue',
+                    'unread'         : null,
+                    'lastMessage'    : 'How was the ACME meeting',                  
                     'lastMessageTime': '2017-03-18T12:30:18.931Z'
                 }
             ]

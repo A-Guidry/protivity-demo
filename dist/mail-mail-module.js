@@ -65,7 +65,7 @@ var MailComposeDialogComponent = /** @class */ (function () {
     MailComposeDialogComponent.prototype.createComposeForm = function () {
         return new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormGroup"]({
             from: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"]({
-                value: 'johndoe@creapond.com',
+                value: 'charlieadams@protivity.app',
                 disabled: true
             }),
             to: new _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormControl"](''),
@@ -1366,8 +1366,8 @@ var MailMainSidebarComponent = /** @class */ (function () {
         this._matDialog = _matDialog;
         // Set the defaults
         this.accounts = {
-            'creapond': 'johndoe@creapond.com',
-            'withinpixels': 'johndoe@withinpixels.com'
+            'Protivity': 'charlieadams@protivity.app',
+            'Gmail': 'charlieadams@gmail.com'
         };
         this.selectedAccount = 'creapond';
         // Set the private defaults

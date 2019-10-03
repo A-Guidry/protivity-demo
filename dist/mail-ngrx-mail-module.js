@@ -66,7 +66,7 @@ var MailNgrxComposeDialogComponent = /** @class */ (function () {
     MailNgrxComposeDialogComponent.prototype.createComposeForm = function () {
         return this._formBuilder.group({
             from: {
-                value: ['johndoe@creapond.com'],
+                value: ['charlieadams@protivity.app'],
                 disabled: [true]
             },
             to: [''],
@@ -1080,8 +1080,8 @@ var MailNgrxMainSidebarComponent = /** @class */ (function () {
         this._store = _store;
         // Set the defaults
         this.accounts = {
-            'creapond': 'johndoe@creapond.com',
-            'withinpixels': 'johndoe@withinpixels.com'
+            'creapond': 'charlieadams@protivity.app',
+            'withinpixels': 'charlieadams@gmail.com'
         };
         this.selectedAccount = 'creapond';
         this.folders$ = this._store.pipe(Object(_ngrx_store__WEBPACK_IMPORTED_MODULE_3__["select"])(app_main_apps_mail_ngrx_store__WEBPACK_IMPORTED_MODULE_5__["getFoldersArr"]));
@@ -2275,7 +2275,7 @@ var ResolveGuard = /** @class */ (function () {
 /*!****************************************************!*\
   !*** ./src/app/main/apps/mail-ngrx/store/index.ts ***!
   \****************************************************/
-/*! exports provided: getMailAppState, getAppState, reducers, getMailsState, getMails, getMailsLoaded, getSearchText, getMailsArr, getCurrentMail, getSelectedMailIds, getFoldersState, getFolders, getFoldersLoaded, getFoldersArr, getFiltersState, getFilters, getFiltersLoaded, getFiltersArr, getLabelsState, getLabels, getLabelsLoaded, getLabelsArr, effects, GET_MAILS, GET_MAILS_SUCCESS, GET_MAILS_FAILED, SET_CURRENT_MAIL, SET_CURRENT_MAIL_SUCCESS, CHECK_CURRENT_MAIL, UPDATE_MAIL, UPDATE_MAIL_SUCCESS, UPDATE_MAILS, UPDATE_MAILS_SUCCESS, SET_SEARCH_TEXT, SELECT_ALL_MAILS, DESELECT_ALL_MAILS, TOGGLE_IN_SELECTED_MAILS, SELECT_MAILS_BY_PARAMETER, SET_FOLDER_ON_SELECTED_MAILS, ADD_LABEL_ON_SELECTED_MAILS, GetMails, GetMailsSuccess, GetMailsFailed, SetCurrentMail, SetCurrentMailSuccess, CheckCurrentMail, UpdateMail, UpdateMailSuccess, UpdateMails, UpdateMailsSuccess, SetSearchText, SelectAllMails, DeselectAllMails, ToggleInSelectedMails, SelectMailsByParameter, SetFolderOnSelectedMails, AddLabelOnSelectedMails, GET_FOLDERS, GET_FOLDERS_SUCCESS, GET_FOLDERS_FAILED, GetFolders, GetFoldersSuccess, GetFoldersFailed, GET_FILTERS, GET_FILTERS_SUCCESS, GET_FILTERS_FAILED, GetFilters, GetFiltersSuccess, GetFiltersFailed, GET_LABELS, GET_LABELS_SUCCESS, GET_LABELS_FAILED, GetLabels, GetLabelsSuccess, GetLabelsFailed, MailsInitialState, MailsReducer, FoldersInitialState, FoldersReducer, FiltersInitialState, FiltersReducer, LabelsInitialState, LabelsReducer, MailsEffect, FoldersEffect, FiltersEffect, LabelsEffect */
+/*! exports provided: GET_MAILS, GET_MAILS_SUCCESS, GET_MAILS_FAILED, SET_CURRENT_MAIL, SET_CURRENT_MAIL_SUCCESS, CHECK_CURRENT_MAIL, UPDATE_MAIL, UPDATE_MAIL_SUCCESS, UPDATE_MAILS, UPDATE_MAILS_SUCCESS, SET_SEARCH_TEXT, SELECT_ALL_MAILS, DESELECT_ALL_MAILS, TOGGLE_IN_SELECTED_MAILS, SELECT_MAILS_BY_PARAMETER, SET_FOLDER_ON_SELECTED_MAILS, ADD_LABEL_ON_SELECTED_MAILS, GetMails, GetMailsSuccess, GetMailsFailed, SetCurrentMail, SetCurrentMailSuccess, CheckCurrentMail, UpdateMail, UpdateMailSuccess, UpdateMails, UpdateMailsSuccess, SetSearchText, SelectAllMails, DeselectAllMails, ToggleInSelectedMails, SelectMailsByParameter, SetFolderOnSelectedMails, AddLabelOnSelectedMails, GET_FOLDERS, GET_FOLDERS_SUCCESS, GET_FOLDERS_FAILED, GetFolders, GetFoldersSuccess, GetFoldersFailed, GET_FILTERS, GET_FILTERS_SUCCESS, GET_FILTERS_FAILED, GetFilters, GetFiltersSuccess, GetFiltersFailed, GET_LABELS, GET_LABELS_SUCCESS, GET_LABELS_FAILED, GetLabels, GetLabelsSuccess, GetLabelsFailed, getMailAppState, getAppState, reducers, getMailsState, getMails, getMailsLoaded, getSearchText, getMailsArr, getCurrentMail, getSelectedMailIds, getFoldersState, getFolders, getFoldersLoaded, getFoldersArr, getFiltersState, getFilters, getFiltersLoaded, getFiltersArr, getLabelsState, getLabels, getLabelsLoaded, getLabelsArr, effects, MailsInitialState, MailsReducer, FoldersInitialState, FoldersReducer, FiltersInitialState, FiltersReducer, LabelsInitialState, LabelsReducer, MailsEffect, FoldersEffect, FiltersEffect, LabelsEffect */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";

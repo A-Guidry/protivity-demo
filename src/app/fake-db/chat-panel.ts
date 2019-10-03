@@ -7,7 +7,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/alice.jpg',
             'status': 'online',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '2'
+            'unread': '1'
         },
         {
             'id'    : '5725a680606588342058356d',
@@ -29,7 +29,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Blair.jpg',
             'status': 'offline',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '3'
+
         },
         {
             'id'    : '5725a68007920cf75051da64',
@@ -37,7 +37,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Boyle.jpg',
             'status': 'offline',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '1'
+
         },
         {
             'id'    : '5725a68031fdbb1db2c1af47',
@@ -101,7 +101,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Lily.jpg',
             'status': 'do-not-disturb',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '10'
+
         },
         {
             'id'    : '5725a6808a178bfd034d6ecf',
@@ -123,7 +123,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Nora.jpg',
             'status': 'do-not-disturb',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '7'
+
         },
         {
             'id'    : '5725a6803d87f1b77e17b62b',
@@ -131,7 +131,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Odessa.jpg',
             'status': 'away',
             'mood'  : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit...',
-            'unread': '1'
+
         },
         {
             'id'    : '5725a680e87cb319bd9bd673',
@@ -160,7 +160,7 @@ export class ChatPanelFakeDb
             'avatar': 'assets/images/avatars/Tillman.jpg',
             'status': 'do-not-disturb',
             'mood'  : '',
-            'unread': '99+'
+           
         },
         {
             'id'    : '5725a680fb65c91a82cb35e2',
@@ -191,93 +191,67 @@ export class ChatPanelFakeDb
             'dialog': [
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
+                    'message': 'Can you come to room 1B? We have the new marketing designs for our upcoming campaign',
                     'time'   : '2017-03-22T08:54:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'I’m having breakfast right now, can’t you wait for 10 minutes?',
+                    'message': 'I’m finishing up a conference call, can I come by in 10 minutes?',
                     'time'   : '2017-03-22T08:55:28.299Z'
                 },
-                {
-                    'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'I’m having breakfast right now, can’t you wait for 10 minutes?',
-                    'time'   : '2017-03-22T08:55:28.299Z'
-                },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:00:28.299Z'
+                    'message': 'Sure, we will get them laid out.',
+                    'time'   : '2017-03-22T09:08:58.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:02:28.299Z'
+                    'message': 'Great! Can I grab you a coffee?',
+                    'time'   : '2017-03-22T09:09:01.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:05:28.299Z'
+                    'message': 'No thank you, I am no my third cup, :{',
+                    'time'   : '2017-03-22T09:09:02.299Z'
                 },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:15:28.299Z'
-                },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:05:28.299Z'
-                },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:15:28.299Z'
-                },
+        
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:20:28.299Z'
+                    'message': 'HAHAH, I will just grab some after.',
+                    'time'   : '2017-03-22T09:03:28.299Z'
                 },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:22:28.299Z'
-                },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
+                    'message': 'Thank you for feedback, I will get the udpates to you by EOD',
                     'time'   : '2017-03-22T09:25:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
+                    'message': 'Great, please add Blair to the task as well.',
                     'time'   : '2017-03-22T09:27:28.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
+                    'message': 'He has been assigned the task',
                     'time'   : '2017-03-22T09:33:28.299Z'
                 },
+                
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T09:33:28.299Z'
-                },
-                {
-                    'who'    : '5725a680b3249760ea21de52',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-03-22T09:35:28.299Z'
+                    'message': 'How about the back-end project update? When can that be shared with ACME?',
+                    'time'   : '2017-03-22T13:35:28.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'It’s not my money, you know. I will eat my breakfast and then I will come to the meeting room.',
-                    'time'   : '2017-03-22T09:45:28.299Z'
+                    'message': 'Lets share it tomorrow morning before our conference call.',
+                    'time'   : '2017-03-22T13:45:28.299Z'
                 },
                 {
                     'who'    : '5725a680b3249760ea21de52',
-                    'message': 'You are the worst!',
-                    'time'   : '2017-03-22T10:00:28.299Z'
+                    'message': 'Awesome!',
+                    'time'   : '2017-03-22T13:48:28.299Z'
                 }
             ]
         },
@@ -286,18 +260,18 @@ export class ChatPanelFakeDb
             'dialog': [
                 {
                     'who'    : '5725a680606588342058356d',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
-                    'time'   : '2017-04-22T01:00:00.299Z'
+                    'message': 'Can we have a quick chat about the new UI?',
+                    'time'   : '2017-04-22T15:00:00.299Z'
                 },
                 {
                     'who'    : '5725a6802d10e277a0f35724',
-                    'message': 'I’m having breakfast right now, can’t you wait for 10 minutes?',
-                    'time'   : '2017-04-22T01:05:00.299Z'
+                    'message': 'Sure, how about at 4?',
+                    'time'   : '2017-04-22T15:05:00.299Z'
                 },
                 {
                     'who'    : '5725a680606588342058356d',
-                    'message': 'We are losing money! Quick!',
-                    'time'   : '2017-04-22T01:10:00.299Z'
+                    'message': 'Sounds good, I will book 1A. ',
+                    'time'   : '2017-04-22T15:06:00.299Z'
                 }
             ]
         },
@@ -306,7 +280,7 @@ export class ChatPanelFakeDb
             'dialog': [
                 {
                     'who'    : '5725a68009e20d0a9e9acf2a',
-                    'message': 'Quickly come to the meeting room 1B, we have a big server issue',
+                    'message': 'How was the ACME meeting?',
                     'time'   : '2017-04-22T02:10:00.299Z'
                 }
             ]
