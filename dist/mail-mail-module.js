@@ -1366,8 +1366,8 @@ var MailMainSidebarComponent = /** @class */ (function () {
         this._matDialog = _matDialog;
         // Set the defaults
         this.accounts = {
-            'Protivity': 'charlieadams@protivity.app',
-            'Gmail': 'charlieadams@gmail.com'
+            'protivity': 'charlieadams@protivity.app',
+            'mail': 'charlieadams@mail.com'
         };
         this.selectedAccount = 'creapond';
         // Set the private defaults

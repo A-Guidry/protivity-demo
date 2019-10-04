@@ -58,8 +58,8 @@ var TodoMainSidebarComponent = /** @class */ (function () {
         this._router = _router;
         // Set the defaults
         this.accounts = {
-            'Protivity': 'charlieadams@protivity.app',
-            'Gmail': 'charlieadams@gmail.com'
+            'creapond': 'johndoe@creapond.com',
+            'withinpixels': 'johndoe@withinpixels.com'
         };
         this.selectedAccount = 'creapond';
         // Set the private defaults
