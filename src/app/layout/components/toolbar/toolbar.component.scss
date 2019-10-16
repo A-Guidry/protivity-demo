@@ -9,7 +9,7 @@ toolbar {
     &.below {
         z-index: 2;
     }
-    
+
     .mat-toolbar {
         position: relative;
         background: inherit !important;
@@ -50,8 +50,5 @@ toolbar {
         @include media-breakpoint('xs') {
             height: 56px;
         }
-    }
-    .language-button{
-        display: none;
     }
 }

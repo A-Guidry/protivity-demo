@@ -28,7 +28,7 @@
             <button mat-button [matMenuTriggerFor]="userMenu"
                     class="user-button">
                 <div fxLayout="row" fxLayoutAlign="center center">
-                    <img class="avatar mr-0 mr-sm-16" src="assets/images/avatars/Charlie.jpg">
+                    <img class="avatar mr-0 mr-sm-16" src="assets/images/avatars/Velazquez.jpg">
                     <span class="username mr-12" fxHide fxShow.gt-sm>Charlie Adams</span>
                     <mat-icon class="s-16" fxHide.xs>keyboard_arrow_down</mat-icon>
                 </div>
@@ -38,12 +38,13 @@
 
                 <button mat-menu-item>
                     <mat-icon>account_circle</mat-icon>
+                    <!-- <a style="text-decoration:none;color: rgba(0, 0, 0, 0.87);" href = "/pages/profile"></a> -->
                     <span>My Profile</span>
                 </button>
 
                 <button mat-menu-item class="">
                     <mat-icon>mail</mat-icon>
-                    <span>Inbox</span>
+                        <span>Inbox</span>
                 </button>
 
                 <button mat-menu-item class="">
@@ -59,14 +60,14 @@
 
             <div class="toolbar-separator"></div>
 
-            <button mat-button fxHide fxShow.gt-xs
+            <!-- <button mat-button fxHide fxShow.gt-xs
                     class="language-button"
                     [matMenuTriggerFor]="languageMenu">
                 <div fxLayout="row" fxLayoutAlign="center center">
                     <img class="flag mr-8" [src]="'assets/icons/flags/'+selectedLanguage.flag+'.png'">
                     <span class="iso text-uppercase">{{selectedLanguage.id}}</span>
                 </div>
-            </button>
+            </button> -->
 
             <mat-menu #languageMenu="matMenu" [overlapTrigger]="false">
 

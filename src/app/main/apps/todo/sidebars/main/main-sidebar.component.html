@@ -5,11 +5,11 @@
         <mat-icon class="logo-icon s-32" [@animate]="{value:'*',params:{delay:'50ms',scale:'0.2'}}">
             check_box
         </mat-icon>
-        <span class="logo-text" [@animate]="{value:'*',params:{delay:'100ms',x:'-25px'}}">Tasks</span>
+        <span class="logo-text" [@animate]="{value:'*',params:{delay:'100ms',x:'-25px'}}">To-Do</span>
     </div>
 
     <div class="account" fxLayout="column" [@animate]="{value:'*',params:{delay:'300ms'}}">
-        <div class="title">Charlie Adams</div>
+        <div class="title">John Doe</div>
         <mat-form-field floatLabel="never">
             <mat-select class="account-selection" placeholder="Todo Selection"
                         [ngModel]="selectedAccount">

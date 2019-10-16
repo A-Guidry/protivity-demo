@@ -130,7 +130,7 @@ export class ChatService implements Resolve<any>
             const chatListItem = {
                 contactId      : contactId,
                 id             : chatId,
-                lastMessageTime: '2017-02-18T10:30:18.931Z',
+                lastMessageTime: '2019-02-18T10:30:18.931Z',
                 name           : contact.name,
                 unread         : null
             };
